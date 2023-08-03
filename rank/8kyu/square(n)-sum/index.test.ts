@@ -13,4 +13,7 @@ describe('8kyu - Square(n) Sum', () => {
     it('should return 0 for a 0', () => {
         expect(squareSum([0])).toBe(0);
     });
+    it('should return 0 for an empty array', () => {
+        expect(squareSum([])).toBe(0);
+    });
 });
